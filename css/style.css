@@ -137,6 +137,10 @@ ul {
 
 /*######## TIPOGRAFIA ########*/
 
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+
 h1 {
     font-size: 4.5rem;
     font-weight: 700;
@@ -149,7 +153,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     margin-bottom: 1.2rem;
 }
 
@@ -162,6 +166,10 @@ h5{
     font-size: 1rem;
     margin-bottom: 1.5rem;
     color: #fff;
+}
+
+.grey {
+    color: #666;
 }
 
 a {
@@ -190,7 +198,9 @@ a.link-blue:hover {
 .btn {
     padding: 0.4rem 1rem;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 1rem;
 }
 
 .btn:hover {
@@ -202,6 +212,11 @@ a.link-blue:hover {
     background-color: #0061FF;
     color: #fff;
     transition: 0.3s;
+}
+
+.btn-light {
+    border: 1px #000 solid;
+    color: #000;
 }
 
 
@@ -346,82 +361,91 @@ header .btn {
 /*######## MAIN ########*/
 
 main section {
-    padding: 4.5rem;
+    padding: 4.5rem 0;
 }
 
-.billing {
+#plans .billing {
     font-size: 1rem;
     margin: 4rem 0 2rem 0;
 }
 
-article {
+#plans article.plan-small {
     width: calc(((100% / 3) - 3.8rem) + 3.8rem / 3);
     margin-right: 3.8rem;
     font-size: 1rem;
     border: 1px #D0D0D0 solid;
     vertical-align: top;
-    
-}
-
-article.plan-small {
     display: inline-block;
 }
 
-article:last-child {
+#plans article:last-child {
     margin-right: 0;
 }
 
-.plan-top {
+#plans .plan-top {
     padding: 0.5rem 0;
     text-align: center;
+    font-size: 1rem;
 }
 
-.plan-wrapper {
+#plans .plan-wrapper {
     border-top: 1px #D0D0D0 solid;
     padding: 2rem;
 }
 
-article i {
+#plans article i {
     margin-right: 0.5rem;
     display: inline-block;
 }
 
-article .features-1 {
+#plans article .features-1 {
     margin: 3rem 0;
 }
 
-article .features-2 {
+#plans article .features-2 {
     margin: 2rem 0;
 }
 
-article ul li {
+#plans article ul li {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;;
     position: relative;
     font-size: 0.9rem;
 }
 
-article ul li:last-of-type {
+#plans article ul li:last-of-type {
     margin-bottom: 0;
 }
 
-article .p-grey {
-    color: #666;
-}
-
-article .p-or {
+#plans article .p-or {
     margin: 1.5rem 0 0 0;
 }
 
-article.plan-large {
+#plans article.plan-large {
     margin-top: 3.8rem;
+    border: 1px #d0d0d0 solid;
 }
 
-article.plan-large .btn {
+#plans article.plan-large .btn {
     width: 300px;
 }
 
-article .float-l {
+#plans article .float-l {
     width: calc(100% - 300px);
+    font-size: 1rem;
 }
 
+#partner img {
+    width: 55%;
+}
+
+#partner div {
+    width: 45%;
+    font-size: 1rem;
+    padding: 3rem 0 3rem 3rem;
+    line-height: 1.8;
+}
+
+#partner .btn {
+    margin-top: 2rem;
+}

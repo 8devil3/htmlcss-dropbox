@@ -114,10 +114,65 @@ header .btn {
 
 
 
+
+/*######## HERO ########*/
+
+.hero {
+    background-color: #B4D0E7;
+    margin-top: 3rem;
+}
+
+.hero-wrapper {
+    padding: 6rem 0 0 0;
+    margin: 0 auto 8rem auto;
+    max-width: 1300px;
+}
+
+.hero-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero img {
+    width: 62%;
+    float: right;
+    vertical-align: top;
+    margin-bottom: -4rem;
+}
+
+.hero .txt-wrapper {
+    float: left;
+    width: 30%;
+    vertical-align: top;
+}
+
+.hero p {
+    margin: 0rem 0 2rem 0;
+}
+
+.hero p:last-of-type {
+    margin: 0.8rem 0 1.8rem 0;
+}
+
+.arrow {
+    font-size: 2.2rem;
+    color: #000;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    color: #222;
+}
+
+
+
+
 /*######## PULSANTI ########*/
 
 .btn {
-    padding: 0.3rem 1rem;
+    padding: 0.4rem 1rem;
+    display: inline-block;
 }
 
 .btn:hover {
@@ -128,4 +183,5 @@ header .btn {
 .btn-blue {
     background-color: #0061FF;
     color: #fff;
+    transition: 0.3s;
 }

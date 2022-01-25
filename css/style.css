@@ -369,7 +369,7 @@ main section {
     margin: 4rem 0 2rem 0;
 }
 
-#plans article.plan-small {
+#plans .plan-small {
     width: calc(((100% / 3) - 3.8rem) + 3.8rem / 3);
     margin-right: 3.8rem;
     font-size: 1rem;
@@ -393,44 +393,39 @@ main section {
     padding: 2rem;
 }
 
-#plans article i {
-    margin-right: 0.5rem;
-    display: inline-block;
-}
-
-#plans article .features-1 {
+#plans .features-1 {
     margin: 3rem 0;
 }
 
-#plans article .features-2 {
+#plans .features-2 {
     margin: 2rem 0;
 }
 
-#plans article ul li {
+#plans ul li {
     margin-bottom: 1.5rem;
     padding-left: 1.5rem;;
     position: relative;
     font-size: 0.9rem;
 }
 
-#plans article ul li:last-of-type {
+#plans ul li:last-of-type {
     margin-bottom: 0;
 }
 
-#plans article .p-or {
+#plans .p-or {
     margin: 1.5rem 0 0 0;
 }
 
-#plans article.plan-large {
+#plans .plan-large {
     margin-top: 3.8rem;
     border: 1px #d0d0d0 solid;
 }
 
-#plans article.plan-large .btn {
+#plans .plan-large .btn {
     width: 300px;
 }
 
-#plans article .float-l {
+#plans .float-l {
     width: calc(100% - 300px);
     font-size: 1rem;
 }
@@ -448,4 +443,21 @@ main section {
 
 #partner .btn {
     margin-top: 2rem;
+}
+
+#operations .op-small {
+    width: calc(((100% / 3) - 4rem) + 4rem / 3);
+    display: inline-block;
+    font-size: 1rem;
+    margin-right: 4rem;
+    margin-bottom: 4rem;
+}
+
+#operations .op-small:last-child {
+    margin-right: 0;
+}
+
+#operations img {
+    width: 100%;
+    object-fit: contain;
 }

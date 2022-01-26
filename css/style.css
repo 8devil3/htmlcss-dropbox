@@ -124,6 +124,7 @@ ul {
 
 
 
+
 /*######## TIPOGRAFIA ########*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -265,7 +266,7 @@ header {
     line-height: 5rem;
 }
 
-header nav, header ul, header li, header a {
+header li, header a {
     display: inline-block;
     vertical-align: middle;
 }
@@ -346,12 +347,6 @@ header .submenu li a:hover {
     max-width: 1300px;
 }
 
-.hero-wrapper::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .hero img {
     width: 62%;
     float: right;
@@ -405,7 +400,6 @@ main section {
     margin-right: 3.8rem;
     border: 1px #D0D0D0 solid;
     vertical-align: top;
-    display: inline-block;
 }
 
 #plans i {
@@ -446,7 +440,7 @@ main section {
 }
 
 #plans .p-or {
-    margin: 1.5rem 0 0 0;
+    margin-top: 1.5rem;
 }
 
 #plans .plan-large {
@@ -454,9 +448,15 @@ main section {
     border: 1px #d0d0d0 solid;
 }
 
-#plans .plan-large .btn {
-    width: 300px;
+#plans div.float-l {
+    width: 70%;
 }
+
+#plans .plan-large .btn {
+    width: 30%;
+}
+
+
 
 
 /* sezione "partner" */
@@ -485,7 +485,6 @@ main section {
 
 #operations .op-small {
     width: calc(((100% / 3) - 4rem) + 4rem / 3);
-    display: inline-block;
     font-size: 1rem;
     margin-right: 4rem;
     margin-bottom: 4rem;
@@ -621,7 +620,7 @@ main section {
 }
 
 #corporate .btn {
-    width: 300px;
+    width: 30%;
 }
 
 

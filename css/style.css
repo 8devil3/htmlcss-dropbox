@@ -461,6 +461,10 @@ main section {
 
 /* sezione "partner" */
 
+#partner {
+    margin-bottom: 2rem;
+}
+
 #partner img {
     width: 55%;
 }

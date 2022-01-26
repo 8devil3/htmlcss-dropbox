@@ -305,7 +305,6 @@ header .menu-open:hover .submenu{
     left: -1rem;
 }
 
-
 header .submenu {
     background-color: #fff;
     border: 1px #d0d0d0 solid;
@@ -509,20 +508,19 @@ main section {
 
 #customer {
     padding: 0;
+    background-color: #F5F5F5;
 }
 
 #customer .customer-wrapper {
-    width: 480px;
+    width: 30%;
     display: inline-block;
 }
 
 #customer .customer-detail {
     display: inline-block;
-    width: calc(100% - (480px * 2));
-    padding: 3rem;
+    width: 40%;
+    padding: 5%;
     overflow-y: auto;
-    height: 480px;
-    background-color: #F5F5F5;
 }
 
 #customer .customer-author {
@@ -534,8 +532,8 @@ main section {
 }
 
 #customer .cust {
-    width: 240px;
-    height: 240px;
+    width: 50%;
+    padding: 25%;
     position: relative;
 }
 
@@ -551,6 +549,7 @@ main section {
 #customer .green {
     background-color: #A2D39B;
     border: 1rem #D0E9CD solid;
+    padding: calc(25% - 1rem)
 }
 
 #customer .darkred {

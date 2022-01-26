@@ -113,6 +113,16 @@ ul {
     content: "";
     display: inline-block;
     width: 100%;
+    line-height: 0;
+}
+
+.inbl-zero {
+    display: inline-block;
+}
+
+.inbl-zero::before, .inbl-zero::after {
+    content: "";
+    font-size: 0;
 }
 
 .float-l {
@@ -149,7 +159,7 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 h3 {
@@ -262,44 +272,43 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    overflow: hidden;
     padding: 0 1rem;
     width: 100%;
     z-index: 10;
-    font-size: 0;
     background-color: #fff;
     border-bottom: 1px #D0D0D0 solid;
+    line-height: 5rem;
 }
 
-header nav a{
-    padding: 1.2rem 0;
+header nav, header ul, header li, header a {
     display: inline-block;
-    color: #000;
-    border-bottom: 3px #fff solid;
+    vertical-align: middle;
 }
 
 header .logo {
-    padding: 0;
-    font-size: 0;
+    vertical-align: text-top;
 }
 
-header nav a:hover:not(.btn, .logo) {
+header nav a{
+    color: #000;
+    border-top: 3px #fff solid;
+    border-bottom: 3px #fff solid;
+}
+
+header nav a:hover:not(.btn, .logo-link) {
     text-decoration: none;
     border-bottom: 3px #222 solid;
-}
-
-header nav, header nav ul, header nav li {
-    display: inline-block;
 }
 
 header nav li {
     margin-right: 2rem;
     font-size: 1rem;
-    vertical-align: middle;
+    
 }
 
 header .btn {
     font-size: 0.9rem;
+    line-height: normal;
 }
 
 
@@ -460,4 +469,30 @@ main section {
 #operations img {
     width: 100%;
     object-fit: contain;
+}
+
+#team h2 {
+    max-width: 54%;
+}
+
+#team a {
+    font-size: 1rem;
+}
+
+#customer .customer-wrapper {
+    width: 60%;
+}
+
+#customer .cust {
+    width: 50%;
+    height: 240px;
+}
+
+.green {
+    background-color: #A2D39B;
+    border: 1rem #D0E9CD solid;
+}
+
+.darkred {
+    background-color: #61082B;
 }

@@ -559,3 +559,24 @@ main section {
 #corporate .btn {
     width: 300px;
 }
+
+
+/* sezione "faq" */
+
+#faq .faq-single {
+    border-top: 1px #d0d0d0 solid;
+    padding: 2rem 2rem 2rem 0;
+}
+
+#faq .faq-single:last-child {
+    border-bottom: 1px #d0d0d0 solid;
+}
+
+#faq .answer {
+    display: none;
+    margin-top: 2rem;
+}
+
+#faq .faq-single:hover .answer {
+    display: block;
+}

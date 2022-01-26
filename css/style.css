@@ -408,6 +408,10 @@ main section {
     display: inline-block;
 }
 
+#plans i {
+    margin-right: 0.5rem;
+}
+
 #plans article:last-child {
     margin-right: 0;
 }

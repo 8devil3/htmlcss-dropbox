@@ -108,6 +108,10 @@ ul {
     float: left;
 }
 
+.float-r {
+    float: right;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -452,10 +456,6 @@ main section {
 
 /* sezione "team" */
 
-#team {
-    margin-top: 2rem;
-}
-
 #team h2 {
     max-width: 54%;
 }
@@ -468,19 +468,67 @@ main section {
 /* sezione "customer" */
 
 #customer .customer-wrapper {
-    width: 60%;
+    width: 480px;
+    display: inline-block;
+}
+
+#customer .customer-detail {
+    display: inline-block;
+    width: calc(100% - (480px * 2));
+    padding: 3rem;
+    overflow-y: scroll;
+    height: 480px;
+    background-color: #F5F5F5;
+}
+
+#customer .customer-author {
+    margin-top: 2.5rem;
+}
+
+#customer .customer-detail img {
+    max-width: 9rem;
 }
 
 #customer .cust {
-    width: 50%;
+    width: 240px;
     height: 240px;
+    position: relative;
 }
 
-.green {
+#customer .cust img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    filter: invert(1);
+}
+
+#customer .green {
     background-color: #A2D39B;
     border: 1rem #D0E9CD solid;
 }
 
-.darkred {
+#customer .darkred {
     background-color: #61082B;
+}
+
+#customer .blue {
+    background-color: #0093CE;
+}
+
+#customer .red {
+    background-color: #FF1C1C;
+}
+
+#customer .darkblue {
+    background-color: #0D2481;
+}
+
+#customer .yellow {
+    background-color: #FFD830;
+}
+
+#customer .lightblue {
+    background-color: #B4D0E7;
 }

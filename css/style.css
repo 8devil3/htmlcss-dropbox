@@ -102,7 +102,6 @@ ul {
 .wrapper {
     max-width: 1080px;
     margin: 0 auto;
-    font-size: 0;
 }
 
 .jstf {
@@ -291,13 +290,13 @@ header .logo {
 
 header nav a{
     color: #000;
-    border-top: 3px #fff solid;
-    border-bottom: 3px #fff solid;
+    border-top: 0.2rem #fff solid;
+    border-bottom: 0.2rem #fff solid;
 }
 
 header nav a:hover:not(.btn, .logo-link) {
     text-decoration: none;
-    border-bottom: 3px #222 solid;
+    border-bottom: 0.2rem #222 solid;
 }
 
 header nav li {
@@ -318,11 +317,11 @@ header .btn {
 
 .hero {
     background-color: #B4D0E7;
-    margin-top: 3rem;
+    margin-top: 5.4rem;
 }
 
 .hero-wrapper {
-    padding: 6rem 0 0 0;
+    padding: 5rem 0 0 0;
     margin: 0 auto 8rem auto;
     max-width: 1300px;
 }

@@ -633,11 +633,11 @@ footer {
     padding: 4rem 0;
 }
 
-footer nav:not(:last-child) {
+footer nav div:not(:last-child) {
     margin-right: 3rem;
 }
 
-footer nav {
+footer nav div {
     width: calc(((100% / 5) - 3rem ) + 3rem / 5);
 }
 

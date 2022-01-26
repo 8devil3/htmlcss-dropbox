@@ -208,6 +208,11 @@ a.link-blue:hover {
     color: #000;
 }
 
+.btn-white {
+    background-color: #fff;
+    color: #000;
+}
+
 
 
 
@@ -467,6 +472,10 @@ main section {
 
 /* sezione "customer" */
 
+#customer {
+    padding: 0;
+}
+
 #customer .customer-wrapper {
     width: 480px;
     display: inline-block;
@@ -531,4 +540,22 @@ main section {
 
 #customer .lightblue {
     background-color: #B4D0E7;
+}
+
+
+/* sezione "corporate" */
+
+#corporate {
+    background-color: #B4D0E7;
+    padding: 9rem 0;
+}
+
+#corporate h2 {
+    width: 50%;
+    color: #61082B;
+    margin: 0;
+}
+
+#corporate .btn {
+    width: 300px;
 }

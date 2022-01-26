@@ -104,32 +104,8 @@ ul {
     margin: 0 auto;
 }
 
-.jstf {
-    text-align: justify;
-}
-
-.jstf::after {
-    content: "";
-    display: inline-block;
-    width: 100%;
-    line-height: 0;
-}
-
-.inbl-zero {
-    display: inline-block;
-}
-
-.inbl-zero::before, .inbl-zero::after {
-    content: "";
-    font-size: 0;
-}
-
 .float-l {
     float: left;
-}
-
-.float-r {
-    float: right;
 }
 
 .clearfix:after {

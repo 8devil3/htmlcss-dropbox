@@ -476,7 +476,7 @@ main section {
     display: inline-block;
     width: calc(100% - (480px * 2));
     padding: 3rem;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 480px;
     background-color: #F5F5F5;
 }

@@ -257,7 +257,9 @@ header {
     left: 0;
     top: 0;
     padding: 0 1rem;
+    min-width: 1200px;
     width: 100%;
+    overflow-x: hidden;
     z-index: 10;
     background-color: #fff;
     border-bottom: 1px #D0D0D0 solid;
@@ -284,7 +286,7 @@ header nav a:hover:not(.btn, .logo-link) {
     border-bottom: 0.2rem #222 solid;
 }
 
-header nav li {
+header nav li:not(:last-of-type) {
     margin-right: 2rem;
     position: relative;
 }

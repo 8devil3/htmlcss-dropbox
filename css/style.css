@@ -259,7 +259,6 @@ header {
     padding: 0 1rem;
     min-width: 1200px;
     width: 100%;
-    overflow-x: hidden;
     z-index: 10;
     background-color: #fff;
     border-bottom: 1px #D0D0D0 solid;

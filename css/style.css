@@ -349,6 +349,7 @@ main section {
     padding: 4.5rem 0;
 }
 
+
 /* sezione "plans" */
 
 #plans .billing {
@@ -410,6 +411,7 @@ main section {
     width: 300px;
 }
 
+
 /* sezione "partner" */
 
 #partner img {
@@ -426,6 +428,7 @@ main section {
 #partner .btn {
     margin-top: 2rem;
 }
+
 
 /* sezione "operations" */
 
@@ -446,7 +449,12 @@ main section {
     object-fit: contain;
 }
 
+
 /* sezione "team" */
+
+#team {
+    margin-top: 2rem;
+}
 
 #team h2 {
     max-width: 54%;
@@ -455,6 +463,7 @@ main section {
 #team a {
     font-size: 1rem;
 }
+
 
 /* sezione "customer" */
 

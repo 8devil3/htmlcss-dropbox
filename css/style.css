@@ -517,16 +517,30 @@ main section {
 #customer {
     padding: 0;
     background-color: #F5F5F5;
+    position: relative;
+    padding-top: 30%;
 }
 
-#customer .customer-wrapper {
+#customer .customer-wrapper:nth-of-type(1) {
     width: 30%;
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#customer .customer-wrapper:nth-of-type(3) {
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #customer .customer-detail {
-    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 30%;
     width: 40%;
+    height: 100%;
     padding: 5%;
     overflow-y: auto;
 }
@@ -555,9 +569,17 @@ main section {
 }
 
 #customer .green {
+    background-color: #D0E9CD;;
+}
+
+#customer .green div {
     background-color: #A2D39B;
-    border: 1rem #D0E9CD solid;
-    padding: calc(25% - 1rem)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
 }
 
 #customer .darkred {

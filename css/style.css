@@ -200,7 +200,6 @@ a.link-blue:hover {
 .btn-blue {
     background-color: #0061FF;
     color: #fff;
-    transition: 0.3s;
 }
 
 .btn-light {
@@ -287,8 +286,7 @@ header nav a:hover:not(.btn, .logo-link) {
 
 header nav li {
     margin-right: 2rem;
-    font-size: 1rem;
-    
+    position: relative;
 }
 
 header .btn {
@@ -296,6 +294,38 @@ header .btn {
     line-height: normal;
 }
 
+header .menu-open:hover .submenu{
+    display: block;
+    position: absolute;
+    left: -1rem;
+}
+
+
+header .submenu {
+    background-color: #fff;
+    border: 1px #d0d0d0 solid;
+    display: none;
+    line-height: 2rem;
+}
+
+header .submenu li {
+    margin: 0;
+    position: static;
+    display: block;
+}
+
+header .submenu li a {
+    margin: 0;
+    border: 0;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    display: block;
+}
+
+header .submenu li a:hover {
+    border: 0;
+    background-color: #efefef;
+}
 
 
 

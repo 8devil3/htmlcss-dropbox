@@ -252,6 +252,7 @@ a.link-blue:hover {
 
 
 
+
 /*######## LINEE HR ########*/
 
 .short-line {
@@ -372,6 +373,8 @@ main section {
     padding: 4.5rem 0;
 }
 
+/* sezione "plans" */
+
 #plans .billing {
     font-size: 1rem;
     margin: 4rem 0 2rem 0;
@@ -380,7 +383,6 @@ main section {
 #plans .plan-small {
     width: calc(((100% / 3) - 3.8rem) + 3.8rem / 3);
     margin-right: 3.8rem;
-    font-size: 1rem;
     border: 1px #D0D0D0 solid;
     vertical-align: top;
     display: inline-block;
@@ -393,7 +395,6 @@ main section {
 #plans .plan-top {
     padding: 0.5rem 0;
     text-align: center;
-    font-size: 1rem;
 }
 
 #plans .plan-wrapper {
@@ -433,10 +434,7 @@ main section {
     width: 300px;
 }
 
-#plans .float-l {
-    width: calc(100% - 300px);
-    font-size: 1rem;
-}
+/* sezione "partner" */
 
 #partner img {
     width: 55%;
@@ -452,6 +450,8 @@ main section {
 #partner .btn {
     margin-top: 2rem;
 }
+
+/* sezione "operations" */
 
 #operations .op-small {
     width: calc(((100% / 3) - 4rem) + 4rem / 3);
@@ -470,6 +470,8 @@ main section {
     object-fit: contain;
 }
 
+/* sezione "team" */
+
 #team h2 {
     max-width: 54%;
 }
@@ -477,6 +479,8 @@ main section {
 #team a {
     font-size: 1rem;
 }
+
+/* sezione "customer" */
 
 #customer .customer-wrapper {
     width: 60%;

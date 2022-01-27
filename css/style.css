@@ -262,11 +262,10 @@ header {
 
 header li, header a {
     display: inline-block;
-    vertical-align: middle;
 }
 
 header .logo {
-    vertical-align: text-top;
+    vertical-align: text-bottom;
 }
 
 header nav a{
@@ -389,7 +388,6 @@ main section {
     width: calc(((100% / 3) - 3.8rem) + 3.8rem / 3);
     margin-right: 3.8rem;
     border: 1px #D0D0D0 solid;
-    vertical-align: top;
 }
 
 #plans i {

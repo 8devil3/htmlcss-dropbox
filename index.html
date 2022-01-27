@@ -74,12 +74,16 @@
         <section id="plans" class="wrapper">
             <h2>Trova il piano Dropbox Business che fa per te</h2>
 
-            <div class="billing">
-                <div class="radio radio-true v-center"></div><span class="lbl-radio v-center">Fatturazione
-                    mensile</span>
-                <div class="radio radio-false v-center"></div><span class="lbl-radio v-center">Fatturazione
-                    annuale</span>
-            </div>
+                <form action="#" class="billing">
+                    <label class="lbl-radio v-center">
+                        <input type="radio" name="billing" id="monthly" checked="checked">
+                        <div class="radio v-center"></div>Fatturazione mensile
+                    </label>
+                    <label class="lbl-radio v-center">
+                        <input type="radio" name="billing" id="yearly">
+                        <div class="radio v-center"></div>Fatturazione annuale
+                    </label>
+                </form>
 
             <div class="clearfix">
                 <article class="plan-small float-l">

@@ -210,22 +210,28 @@ a.link-blue:hover {
 
 
 
-/*######## RADIO ########*/
+/*######## RADIO BTN NELLA SEZIONE "PLANS" ########*/
 
-.radio {
+.billing .radio { /* stile quando falso */
     width: 1.5rem;
     height: 1.5rem;
     display: inline-block;
     border-radius: 100px;
     margin-right: 0.5rem;
-}
-
-.radio-true {
-    border: 0.4rem #0061FF solid;
-}
-
-.radio-false {
     border: 1px #d0d0d0 solid;
+    cursor: pointer;
+}
+
+.billing input {
+    position: absolute; /* rimuovo il radio btn dal flusso*/
+    visibility: hidden; /* nascondo il radio btn */
+}
+
+.billing input:checked + div { /* stile quando vero */
+    border: 0.4rem #0061FF solid; 
+}
+
+.billing div:not(input#monthly + div) {
     margin-left: 2rem;
 }
 

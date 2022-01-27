@@ -614,6 +614,7 @@ main section {
 #faq .faq-single {
     border-top: 1px #d0d0d0 solid;
     padding: 2rem 2rem 2rem 0;
+    cursor: pointer;
 }
 
 #faq .faq-single:last-child {

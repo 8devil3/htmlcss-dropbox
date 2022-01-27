@@ -280,7 +280,7 @@ header nav a:hover:not(.btn, .logo-link) {
     border-bottom: 0.2rem #222 solid;
 }
 
-header nav li:not(:nth-last-child(1)) {
+header nav li:not(nav.float-r li:last-child, .submenu li) {
     margin-right: 2rem;
     position: relative;
 }

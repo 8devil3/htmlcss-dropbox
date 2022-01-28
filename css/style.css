@@ -21,67 +21,42 @@ ul {
     list-style: none;
 }
 
-.list-tick-icon::before {
+.list-icon::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+    color: #000;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+
+.list-tick::before {
     content: "\f00c";
     color: #0061FF;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1rem;
     font-weight: 900;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
 }
 
-.list-user-icon::before {
+.list-user::before {
     content: "\f007";
-    color: #000;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1rem;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
 }
 
-.list-user-plus-icon::before {
+.list-user-plus::before {
     content: "\f234";
-    color: #000;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1rem;
     font-weight: 900;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
+
 }
 
-.list-folder-icon::before {
+.list-folder::before {
     content: "\f07b";
-    color: #000;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1rem;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
 }
 
-.list-smile-icon::before {
+.list-smile::before {
     content: "\f118";
-    color: #000;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1rem;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
 }
 
-.list-edit-icon::before {
+.list-edit::before {
     content: "\f303";
-    color: #000;
-    font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    font-size: 1rem;
-    position: absolute;
-    left: 0;
-    top: 0.2rem;
 }
 
 

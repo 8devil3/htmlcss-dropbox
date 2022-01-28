@@ -1,4 +1,34 @@
-/* CSS reset */
+/*
+
+INDICE DEL FOGLIO DI STILE
+
+1. CSS RESET
+2. ELENCHI
+3. CLASSI COMUNI
+4. TIPOGRAFIA
+5. PULSANTI
+6. RADIO BTN SEZIONE "BILLING"
+7. LINEE HR
+8. HEADER E NAVIGAZIONE
+9. HERO
+10. MAIN
+    - sezione "plans"
+    - sezione "partner"
+    - sezione "operations"
+    - sezione "team"
+    - sezione "customer"
+    - sezione "corporate"
+    - sezione "faq"
+11. FOOTER
+
+----------------------------------
+*/
+
+
+
+
+
+/*######## 1. CSS RESET ########*/
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +45,7 @@
 
 
 
-/*######## ELENCHI ########*/
+/*######## 2. ELENCHI ########*/
 
 ul {
     list-style: none;
@@ -62,7 +92,7 @@ ul {
 
 
 
-/*######## CLASSI COMUNI ########*/
+/*######## 3. CLASSI COMUNI ########*/
 
 .v-center {
     vertical-align: middle;
@@ -94,7 +124,7 @@ ul {
 
 
 
-/*######## TIPOGRAFIA ########*/
+/*######## 4. TIPOGRAFIA ########*/
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
@@ -152,7 +182,7 @@ a.link-blue:hover {
 
 
 
-/*######## PULSANTI ########*/
+/*######## 5. PULSANTI ########*/
 
 .btn {
     padding: 0.4rem 1rem;
@@ -185,7 +215,7 @@ a.link-blue:hover {
 
 
 
-/*######## RADIO BTN NELLA SEZIONE "PLANS" ########*/
+/*######## 6. RADIO BTN NELLA SEZIONE "PLANS" ########*/
 
 .billing .radio { /* stile quando falso */
     width: 1.5rem;
@@ -213,7 +243,7 @@ a.link-blue:hover {
 
 
 
-/*######## LINEE HR ########*/
+/*######## 7. LINEE HR ########*/
 
 .short-line {
     margin: 2rem 0 3rem 0;
@@ -226,7 +256,7 @@ a.link-blue:hover {
 
 
 
-/*######## HEADER ########*/
+/*######## 8. HEADER E NAVIGAZIONE ########*/
 
 header {
     position: fixed;
@@ -304,7 +334,7 @@ header .submenu li a:hover {
 
 
 
-/*######## HERO ########*/
+/*######## 9. HERO ########*/
 
 .hero {
     background-color: #B4D0E7;
@@ -351,7 +381,7 @@ header .submenu li a:hover {
 
 
 
-/*######## MAIN ########*/
+/*######## 10. MAIN ########*/
 
 main section {
     padding: 4.5rem 0;
@@ -424,8 +454,6 @@ main section {
 #plans .plan-large .btn {
     width: 30%;
 }
-
-
 
 
 /* sezione "partner" */
